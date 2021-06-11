@@ -1,0 +1,41 @@
+@media screen and (max-width: 769px) {
+	header {
+		padding: 0px 0px !important;
+	}
+
+	.navButton {
+		display: flex;
+	}
+
+	.screenLogo a {
+		display: flex;
+	}
+
+	.navigationLinks {
+		display: none;
+	}
+
+	.hamburgerNav {
+		border-left: white solid 1px;
+	}
+
+	.screenLogo-NavButton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 96%;
+		padding: 0px 15px;
+	}
+}
+
+@media screen and (max-width: 541px) {
+	.screenLogo-NavButton {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.screenLogo-NavButton {
+		width: 93%;
+	}
+}
