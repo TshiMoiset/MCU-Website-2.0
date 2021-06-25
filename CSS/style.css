@@ -21,6 +21,21 @@ body {
 	background: white;
 }
 
+/*------------ Hover i menyn & footer -------------*/
+
+.hoverLine::after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	background-color: #5c49c6;
+	transition: 300ms;
+}
+
+.hoverLine:hover::after {
+	width: 100%;
+}
+
 @font-face {
 	font-family: "Comics";
 	src: url("../FONT/VictoryComics3D-KLXA.otf");

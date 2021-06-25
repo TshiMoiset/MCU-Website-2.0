@@ -1,0 +1,42 @@
+footer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: relative;
+	background-color: #0b0930;
+	color: white;
+	transition: 500ms;
+}
+
+.footerContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 20px;
+}
+
+.footerContent li {
+	list-style: none;
+}
+
+.footerLeft {
+	display: flex;
+	align-items: center;
+}
+
+.footerLeft span,
+p {
+	padding: 5px;
+}
+
+.footerRight ul li {
+	display: inline-flex;
+	margin: 0 18px;
+}
+
+.footerRight a {
+	transition: 500ms;
+	text-decoration: none;
+	color: white;
+	flex-wrap: wrap;
+}

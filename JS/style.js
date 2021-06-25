@@ -37,13 +37,10 @@ window.onscroll = function () {
         document.getElementById("navBar").style.top = "0";
         
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            document.getElementById("navBar").style.backgroundColor = "#1a1a64";
-            document.getElementById("screenLogo-NavButton").style.backgroundColor = "#1a1a64";
-            
-        } else {
             document.getElementById("navBar").style.backgroundColor = "#0b0930"
             document.getElementById("screenLogo-NavButton").style.backgroundColor = "#0b0930";
-        }
+            
+        } 
 
     } else {
         document.getElementById("navBar").style.top = "-100px"

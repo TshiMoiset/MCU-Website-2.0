@@ -26,6 +26,23 @@
 		width: 96%;
 		padding: 0px 15px;
 	}
+
+	/*----------------- footer -------------------*/
+
+	.footerContent {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.footerLeft p {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 651px) {
+	.footerRight ul {
+		padding: 0;
+	}
 }
 
 @media screen and (max-width: 541px) {
