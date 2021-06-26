@@ -19,6 +19,7 @@ header {
 	padding: 5px;
 	z-index: 1;
 	background-color: #0b0930;
+	top: 0;
 }
 
 .logo a {

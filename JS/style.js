@@ -39,7 +39,6 @@ window.onscroll = function () {
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
             document.getElementById("navBar").style.backgroundColor = "#0b0930"
             document.getElementById("screenLogo-NavButton").style.backgroundColor = "#0b0930";
-            
         } 
 
     } else {
