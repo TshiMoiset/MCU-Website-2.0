@@ -24,9 +24,19 @@ footer {
 	align-items: center;
 }
 
+.footerLeft span a {
+	font-family: "Comics";
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	user-select: none;
+}
+
 .footerLeft span,
 p {
 	padding: 5px;
+	user-select: none;
 }
 
 .footerRight ul li {
@@ -38,5 +48,4 @@ p {
 	transition: 500ms;
 	text-decoration: none;
 	color: white;
-	flex-wrap: wrap;
 }

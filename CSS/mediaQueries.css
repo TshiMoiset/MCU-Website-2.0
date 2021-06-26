@@ -42,6 +42,11 @@
 @media screen and (max-width: 651px) {
 	.footerRight ul {
 		padding: 0;
+		text-align: center;
+	}
+
+	.footerRight a {
+		padding-top: 10px;
 	}
 }
 
