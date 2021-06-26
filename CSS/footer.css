@@ -30,7 +30,6 @@ footer {
 	text-decoration: none;
 	cursor: pointer;
 	color: white;
-	user-select: none;
 }
 
 .footerLeft span,
