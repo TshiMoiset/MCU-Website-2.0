@@ -1,0 +1,15 @@
+.heroImg {
+	min-height: 99vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url("../IMAGES/TheMcuPoster3.jpg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.introToTheMcu {
+	padding: 2rem;
+}

@@ -14,7 +14,7 @@ hr {
 
 header {
 	position: fixed;
-	transition: 500ms;
+	transition: 400ms;
 	width: 100%;
 	padding: 5px;
 	z-index: 1;
@@ -25,14 +25,11 @@ header {
 .logo a {
 	font-family: "Comics" !important;
 	font-size: 2rem !important;
+	user-select: none;
 }
 
 .logo {
 	transition: 500ms;
-}
-
-.logo:hover {
-	transform: scale(1.1);
 }
 
 .screenLogo-NavButton {
