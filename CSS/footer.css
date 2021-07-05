@@ -33,7 +33,7 @@ footer {
 }
 
 .footerLeft span,
-p {
+.footerLeft p {
 	padding: 5px;
 	user-select: none;
 }

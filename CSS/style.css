@@ -28,7 +28,7 @@ body {
 	display: block;
 	width: 0%;
 	height: 2px;
-	background-color: #5c49c6;
+	background-color: red;
 	transition: 300ms;
 }
 
