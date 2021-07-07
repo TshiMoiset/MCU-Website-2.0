@@ -64,9 +64,16 @@ header {
 	list-style: none;
 }
 
+.dot {
+	width: 30px;
+	height: 2px;
+	color: white;
+	margin: 6px 0;
+}
+
 .navButton {
 	display: none;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	cursor: pointer;
 	transition: 300ms;
 	color: white;
