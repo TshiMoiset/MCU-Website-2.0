@@ -37,6 +37,12 @@
 	.footerLeft p {
 		padding: 0;
 	}
+
+	/*------------ hero img ---------*/
+	.heroImgText {
+		font-size: 15px;
+		width: 60%;
+	}
 }
 
 @media screen and (max-width: 651px) {
@@ -47,6 +53,12 @@
 
 	.footerRight a {
 		padding-top: 10px;
+	}
+
+	/*------------ hero img ---------*/
+	.heroImgText {
+		font-size: 11px;
+		width: 80%;
 	}
 }
 
