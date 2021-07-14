@@ -1,3 +1,4 @@
+let screenSizex = window.matchMedia("(max-width: 768px)")
 let screenSizey = window.matchMedia("(max-width: 568px)")
 
 function openNavbar() {
@@ -21,7 +22,7 @@ function closeNavbar() {
     document.querySelector("body").classList.toggle("active");
 
     if (x.matches) {
-        document.getElementById("navButton").style.display = "flex";
+        document.getElementById("navButton").style.display = "block";
     }
     else {
         document.getElementById("navButton").style.display = "none";
@@ -29,7 +30,6 @@ function closeNavbar() {
 }
 
 /*------------------- Scroll -------------------*/
-
 
 let scrollUp = window.pageYOffset;
 
