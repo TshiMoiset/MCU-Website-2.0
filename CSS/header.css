@@ -64,13 +64,10 @@ header {
 	list-style: none;
 }
 
-/*.navButton {
-	display: none;
-	font-size: 1.6rem;
-	cursor: pointer;
+.navButton {
 	transition: 300ms;
-	color: white;
-}*/
+	cursor: pointer;
+}
 
 .navButton span {
 	display: none;
