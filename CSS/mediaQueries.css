@@ -3,8 +3,10 @@
 		padding: 0px 0px !important;
 	}
 
-	.navButton {
+	.navButton span {
 		display: flex;
+		width: 20px;
+		height: 2px;
 	}
 
 	.screenLogo a {

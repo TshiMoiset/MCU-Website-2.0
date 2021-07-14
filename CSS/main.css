@@ -22,3 +22,115 @@
 .introToTheMcu {
 	padding: 2rem;
 }
+
+/*----------------- carousel images -------------*/
+
+.carousel {
+	width: 200px;
+	/*overflow: hidden;*/
+	height: auto;
+	align-items: center;
+	/*margin-left: 360px;
+	margin-top: 20px;*/
+}
+
+.carousel img {
+}
+
+/*
+@keyframes slide_animation {
+	0% {
+		left: 0px;
+	}
+	10% {
+		left: 0px;
+	}
+	20% {
+		left: 1200px;
+	}
+	30% {
+		left: 1200px;
+	}
+	40% {
+		left: 2400px;
+	}
+	50% {
+		left: 2400px;
+	}
+	60% {
+		left: 1200px;
+	}
+	70% {
+		left: 1200px;
+	}
+	80% {
+		left: 0px;
+	}
+	90% {
+		left: 0px;
+	}
+	100% {
+		left: 0px;
+	}
+}
+
+.images {
+	width: 3600px;
+	height: 800px;
+	margin: 0 0 0 -2400px;
+	position: relative;
+	animation-name: slide_animation;
+	animation-duration: 33s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: running;
+}
+
+.carouselImage {
+	height: 800px;
+	width: 1200px;
+	position: relative;
+	float: left;
+}
+
+/*
+.ImageCarousel {
+	min-height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	animation: swap ease 20s infinite;
+}
+
+@keyframes swap {
+	0% {
+		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+			url("../MoviePosters/IronManposter.jpg");
+	}
+
+	20% {
+		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+			url("../MoviePosters/TheIncredibleHulkPoster.jpg");
+	}
+
+	40% {
+		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+			url("../MoviePosters/IronMan2poster.jpg");
+	}
+
+	60% {
+		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+			url("../MoviePosters/Thorposter.jpg");
+	}
+
+	80% {
+		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+			url("../MoviePosters/CaptainAmericaTheFirstAvengerposter.jpg");
+	}
+
+	100% {
+		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+			url("../MoviePosters/TheAvengersposter.jpg");
+	}
+}
+*/

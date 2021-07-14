@@ -1,4 +1,3 @@
-let screenSizex = window.matchMedia("(max-width: 768px)")
 let screenSizey = window.matchMedia("(max-width: 568px)")
 
 function openNavbar() {
@@ -7,7 +6,7 @@ function openNavbar() {
     document.querySelector("body").classList.toggle("active");  // Koden gör så att amn inte kan skrolla när innehållet i hamburgerNavbarLinks visas
 
     if (screenSizey.matches) {  // Om skärmstorleken är 568px tar hamburgerNavbarLinks 100% av skärmen
-        document.getElementById("hamburgerNavbarLinks").style.width = "100%";  
+        document.getElementById("hamburgerNavbarLinks").style.width = "100%";
     } else if (screenSizex.matches) {
         document.getElementById("hamburgerNavbarLinks").style.width = "40%";    // Om skärmstorleken är 768px tar hamburgerNavbarLinks 60% av skärmen
     }
@@ -18,7 +17,7 @@ let x = window.matchMedia("(max-width: 768px)")
 function closeNavbar() {
     document.getElementById("hamburgerNavbarLinks").style.width = "0%";
     document.getElementById("closeButton").style.display = "none";
-    document.getElementById("navButton").style.display = "none"; 
+    document.getElementById("navButton").style.display = "none";
     document.querySelector("body").classList.toggle("active");
 
     if (x.matches) {
@@ -29,17 +28,20 @@ function closeNavbar() {
     }
 }
 
+/*------------------- Scroll -------------------*/
+
+
 let scrollUp = window.pageYOffset;
 
 window.onscroll = function () {
     let scrollDown = window.pageYOffset;
     if (scrollUp > scrollDown) {
         document.getElementById("navBar").style.top = "0";
-        
+
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
             document.getElementById("navBar").style.backgroundColor = "#0b0930"
             document.getElementById("screenLogo-NavButton").style.backgroundColor = "#0b0930";
-        } 
+        }
 
     } else {
         document.getElementById("navBar").style.top = "-100px"
@@ -47,3 +49,6 @@ window.onscroll = function () {
 
     scrollUp = scrollDown;
 }
+
+/*------------------- Carousel images -------------------*/
+
