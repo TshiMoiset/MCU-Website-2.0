@@ -6,7 +6,6 @@ for (let i = 0; i < sliderAll.length; i++) {
     const slider = sliderAll[i];
     const result = isInViewport(slider);
     
-    
     write(result,slider)
     console.log(result);
 }
@@ -15,8 +14,8 @@ function write(result,slider) {
     if (result === true) {
 
         if (slider !== undefined) {
+            slider.style.display = "none";
         }
-        slider.style.display = "none";
     } else {
 
         if (slider !== undefined) {
@@ -32,12 +31,12 @@ function isInViewport(el) {
         rect.left >= 0 &&
         rect.bottom <= (window.innerHeight ?? document.documentElement.clientHeight) &&
         rect.right <= (window.innerWidth ?? document.documentElement.clientWidth)
-        
         );
     }
     
-setInterval(write, 10000);*/
+setInterval(write, 1000);
 
 
 
     
+*/

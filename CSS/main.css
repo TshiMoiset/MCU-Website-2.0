@@ -25,27 +25,6 @@
 
 /*----------------- carousel images -------------*/
 
-/*.lightSlider {
-	display: flex;
-	overflow-y: hidden;
-	justify-content: center;
-}
-
-.lightSlider img {
-	margin: 0.2rem;
-	width: 175px;
-	height: auto;
-}
-
-.lightSlider li {
-	list-style: none;
-}
-
-.lightSlider ul {
-	padding: 0;
-	margin: 0;
-}*/
-
 .slideshow-container {
 	display: grid;
 	grid-template-columns: repeat(10, minmax(200px, 1fr));
@@ -58,6 +37,7 @@
 	height: auto;
 	object-fit: cover;
 	min-width: 15rem;
+	border-radius: 1%;
 }
 
 .slide {
@@ -71,21 +51,24 @@
 .fade {
 	position: relative;
 	animation: slideLeft infinite;
-	animation-duration: 20s;
-	animation-delay: 10s;
+	animation-duration: 25s;
+	animation-delay: 5s;
 }
 
 @keyframes slideLeft {
 	0% {
 		right: 0;
 	}
+
+	20% {
+		right: 1245px;
+	}
 	40% {
 		right: 1245px;
 	}
-	60% {
-		right: 1245px;
+	80% {
+		right: 0;
 	}
-
 	100% {
 		right: 0;
 	}
