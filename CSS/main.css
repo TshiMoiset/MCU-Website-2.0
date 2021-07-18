@@ -20,117 +20,73 @@
 }
 
 .introToTheMcu {
-	padding: 2rem;
+	padding: 1.5rem;
 }
 
 /*----------------- carousel images -------------*/
 
-.carousel {
-	width: 200px;
-	/*overflow: hidden;*/
+/*.lightSlider {
+	display: flex;
+	overflow-y: hidden;
+	justify-content: center;
+}
+
+.lightSlider img {
+	margin: 0.2rem;
+	width: 175px;
 	height: auto;
-	align-items: center;
-	/*margin-left: 360px;
-	margin-top: 20px;*/
 }
 
-.carousel img {
+.lightSlider li {
+	list-style: none;
 }
 
-/*
-@keyframes slide_animation {
+.lightSlider ul {
+	padding: 0;
+	margin: 0;
+}*/
+
+.slideshow-container {
+	display: grid;
+	grid-template-columns: repeat(10, minmax(200px, 1fr));
+	grid-gap: 3rem;
+	overflow-x: hidden;
+}
+
+.slide img {
+	width: 15rem;
+	height: auto;
+	object-fit: cover;
+	min-width: 15rem;
+}
+
+.slide {
+	padding: 5px;
+}
+
+.text {
+	color: grey;
+}
+
+.fade {
+	position: relative;
+	animation: slideLeft infinite;
+	animation-duration: 20s;
+	animation-delay: 10s;
+}
+
+@keyframes slideLeft {
 	0% {
-		left: 0px;
-	}
-	10% {
-		left: 0px;
-	}
-	20% {
-		left: 1200px;
-	}
-	30% {
-		left: 1200px;
+		right: 0;
 	}
 	40% {
-		left: 2400px;
-	}
-	50% {
-		left: 2400px;
+		right: 1245px;
 	}
 	60% {
-		left: 1200px;
-	}
-	70% {
-		left: 1200px;
-	}
-	80% {
-		left: 0px;
-	}
-	90% {
-		left: 0px;
-	}
-	100% {
-		left: 0px;
-	}
-}
-
-.images {
-	width: 3600px;
-	height: 800px;
-	margin: 0 0 0 -2400px;
-	position: relative;
-	animation-name: slide_animation;
-	animation-duration: 33s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-play-state: running;
-}
-
-.carouselImage {
-	height: 800px;
-	width: 1200px;
-	position: relative;
-	float: left;
-}
-
-/*
-.ImageCarousel {
-	min-height: 100vh;
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	animation: swap ease 20s infinite;
-}
-
-@keyframes swap {
-	0% {
-		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-			url("../MoviePosters/IronManposter.jpg");
-	}
-
-	20% {
-		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-			url("../MoviePosters/TheIncredibleHulkPoster.jpg");
-	}
-
-	40% {
-		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-			url("../MoviePosters/IronMan2poster.jpg");
-	}
-
-	60% {
-		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-			url("../MoviePosters/Thorposter.jpg");
-	}
-
-	80% {
-		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-			url("../MoviePosters/CaptainAmericaTheFirstAvengerposter.jpg");
+		right: 1245px;
 	}
 
 	100% {
-		background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-			url("../MoviePosters/TheAvengersposter.jpg");
+		right: 0;
 	}
 }
-*/
