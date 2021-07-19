@@ -30,14 +30,25 @@
 	}
 
 	/*----------------- footer -------------------*/
-
 	.footerContent {
-		flex-wrap: wrap;
-		justify-content: center;
+		flex-direction: column;
+		padding: 15px 20px;
 	}
 
 	.footerLeft p {
+		margin: 8px 0;
+	}
+
+	.footerRight {
+		flex-direction: column;
+	}
+
+	.footerRight ul {
 		padding: 0;
+	}
+
+	.footerRight ul {
+		margin: 0;
 	}
 
 	/*------------ hero img ---------*/
@@ -50,15 +61,6 @@
 }
 
 @media screen and (max-width: 651px) {
-	.footerRight ul {
-		padding: 0;
-		text-align: center;
-	}
-
-	.footerRight a {
-		padding-top: 10px;
-	}
-
 	/*------------ hero img ---------*/
 	.heroImgText {
 		font-size: 11px;
@@ -69,6 +71,11 @@
 @media screen and (max-width: 541px) {
 	.screenLogo-NavButton {
 		width: 95%;
+	}
+
+	.footerRight ul li {
+		display: block;
+		padding: 0.6rem;
 	}
 }
 

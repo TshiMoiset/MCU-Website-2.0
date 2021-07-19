@@ -1,4 +1,4 @@
-footer {
+/*footer {
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -47,4 +47,61 @@ footer {
 	transition: 500ms;
 	text-decoration: none;
 	color: white;
+}*/
+
+/*------------- Sefs Kod ---------------*/
+
+footer {
+	/*font-family: "Montserrat", sans-serif;*/
+	background-color: #0b0930;
+	position: relative;
+	color: white;
+	width: 100%;
+	transition: 500ms;
+}
+
+.footerLogo {
+	cursor: pointer;
+	padding: 12px;
+	font-size: 20px;
+	font-family: "Comics";
+}
+
+.footerLeft p {
+	user-select: none;
+}
+
+.footerContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	padding: 6px 20px;
+}
+
+.footerContent li {
+	list-style: none;
+}
+
+.footerContent a {
+	color: white;
+	text-decoration: none;
+	transition: 300ms;
+}
+
+.footerLeft {
+	display: flex;
+	align-items: center;
+}
+
+.footerRight {
+	display: flex;
+	align-items: center;
+}
+
+.footerRight ul li {
+	display: inline-block;
+	margin: 0 6px;
 }
