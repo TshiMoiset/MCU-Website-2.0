@@ -35,8 +35,5 @@ function isInViewport(el) {
     }
     
 setInterval(write, 1000);
-
-
-
     
 */
