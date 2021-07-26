@@ -23,7 +23,7 @@
 	padding: 1.5rem;
 }
 
-/*----------------- carousel images -------------*/
+/*----------------- carousel images -------------
 
 .slideshow-container {
 	display: grid;
@@ -72,4 +72,4 @@
 	100% {
 		right: 0;
 	}
-}
+}*/

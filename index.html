@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/carousel.css">
     <link rel="stylesheet" href="CSS/mediaQueries.css">
 
     <script defer src="JS/navBar.js"></script>
@@ -17,6 +18,10 @@
 	<script defer src="JS/imageSlider.js"></script>
 
 	<link rel="shortcut icon" href="Logo/STREND.LOGO.jpg" type="image/x-icon">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
 <body id="top">
@@ -71,8 +76,48 @@
 		</div>
 
 		<div class="introToTheMcu">
+
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="slide-container">
+							<div class="slide-card text-center">
+								<img class="slide-card-img-top" src="MoviePosters/IronManposter.jpg" alt="Iron Man">
+								<div class="slide-card-body">
+									<h5>2008
+										<br>
+										<span>Iron Man</span>
+									</h5>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="slide-container">
+							<div class="slide-card text-center">
+								<img class="slide-card-img-top" src="MoviePosters/Thorposter.jpg" alt="Thor">
+								<div class="slide-card-body">
+									<h5>2010
+										<br>
+										<span>Thor</span>
+									</h5>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+
 			
-			<div class="slideshow-container">
+			
+			<!--<div class="slideshow-container">
 
 				<div class="slide fade">
 					<img src="MoviePosters/IronManposter.jpg" alt="Iron Man">
@@ -124,30 +169,26 @@
 					<div class="text">2014</div>
 				</div>
 
-			</div>
+			</div>-->
+
+			<!--<div class="carousel">
+				<a class="carousel-item" href="#one!"><img
+					src="https://cdn.discordapp.com/attachments/688770124651560978/864617112382472232/CaptainAmericaTheFirstAvengerposter.jpg"></a>
+				<a class="carousel-item" href="#two!"><img
+					src="https://cdn.discordapp.com/attachments/688770124651560978/864617119823953940/IronMan2poster.jpg"></a>
+				<a class="carousel-item" href="#three!"><img
+					src="https://cdn.discordapp.com/attachments/688770124651560978/864617121236123658/IronManposter.jpg"></a>
+				<a class="carousel-item" href="#four!"><img
+					src="https://cdn.discordapp.com/attachments/688770124651560978/864617125548523560/Thorposter.jpg"></a>
+				<a class="carousel-item" href="#five!"><img
+					src="https://cdn.discordapp.com/attachments/688770124651560978/864617123186737182/TheAvengersposter.jpg"></a>
+				<a class="carousel-item" href="#six!"><img
+					src="https://cdn.discordapp.com/attachments/688770124651560978/864617124089823302/TheIncredibleHulkPoster.jpg"></a>
+			  </div>-->
 		
 		</div>
 
 	</main>
-
-	<!--<footer>
-		<div class="footerContent">
-			<div class="footerLeft">
-				<span class="footerLogo"><a href="#">MCU</a></span>
-				<p>&copy; 2021 Strend</p> 
-			</div>
-
-			<div class="footerRight">
-				<ul>
-					<li><a class="hoverLine" href="#">Terms of Use</a></li>
-					<li><a class="hoverLine" href="#">Privacy Policy</a></li>
-					<li><a class="hoverLine" href="#">Cookies Policy</a></li>
-					<li><a class="hoverLine" href="#">Contact</a></li>
-					<li><a class="hoverLine" href="#">About</a></li>
-				</ul>
-			</div>
-        </div>
-	</footer>-->
 
 	<footer>
         <div class="footerContent">

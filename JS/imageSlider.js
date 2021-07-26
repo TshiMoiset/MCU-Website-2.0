@@ -37,3 +37,38 @@ function isInViewport(el) {
 setInterval(write, 1000);
     
 */
+
+const swiper = new Swiper ('.swiper-container', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }, 
+
+    autoplay:
+    {
+        delay:2000,
+    },
+    loop: true, 
+
+    slidePerView:1, 
+    spaceBetween: 10, 
+    centeredSlides: true, 
+    roundLengths: true,
+    loop: true,
+    loopAdditionalSlides: 30, 
+    breakpoints: {
+        320: {
+            slidePerView: 1,
+            spaceBetween: 0
+        },
+        480: {
+            slidePerView: 2, 
+            spaceBetween: 0
+        }, 
+        640: {
+            slidePerView: 3, 
+            spaceBetween: 0
+
+        }
+    }
+});
