@@ -111,9 +111,6 @@
 }
 
 @media screen and (max-width: 541px) {
-	.screenLogo-NavButton {
-	}
-
 	.footerRight ul li {
 		display: block;
 		padding: 0.6rem;
@@ -121,9 +118,6 @@
 }
 
 @media screen and (max-width: 426px) {
-	.screenLogo-NavButton {
-	}
-
 	/*----------------- carousel images -------------*/
 
 	.slideshow-container {
