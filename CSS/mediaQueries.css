@@ -225,14 +225,14 @@
 		float: left;
 		clear: right;
 		transform: translateX(-30px);
-		border-radius: 10px 0 10px 10px;
+		border-radius: 15px 0 15px 15px;
 	}
 
 	.timeline ul li:nth-child(even) {
 		float: right;
 		clear: left;
 		transform: translateX(30px);
-		border-radius: 0 10px 10px 10px;
+		border-radius: 0 15px 15px 15px;
 	}
 
 	.timeline ul li::after {
