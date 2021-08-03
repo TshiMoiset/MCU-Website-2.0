@@ -9,6 +9,7 @@ header {
 	z-index: 1;
 	background-color: #0b0930;
 	top: 0;
+	padding: 21px;
 }
 
 .logo a {
@@ -27,6 +28,7 @@ header {
 	background-color: #0b0930;
 	font-family: "Comics" !important;
 	transition: 300ms;
+	padding: 15px;
 }
 
 .screenLogo-NavButton ul {
@@ -39,7 +41,7 @@ header {
 	font-size: 1.5rem;
 	color: white;
 	text-decoration: none;
-	margin: 1rem;
+	/*margin: 1rem;*/
 }
 
 .screenLogo li {
@@ -49,7 +51,7 @@ header {
 .navButton {
 	transition: 300ms;
 	cursor: pointer;
-	margin-right: 1rem;
+	/*margin-right: 1rem;*/
 }
 
 .navButton span {

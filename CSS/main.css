@@ -23,13 +23,14 @@
 	padding: 1.5rem;
 }
 
-/*----------------- carousel images -------------*/
+/*----------------- carousel images -----------------*/
 
 .slideshow-container {
 	display: grid;
 	grid-template-columns: repeat(10, minmax(200px, 1fr));
 	grid-gap: 3rem;
 	overflow-x: hidden;
+	margin-bottom: 1.5rem;
 }
 
 .slide img {
@@ -72,4 +73,68 @@
 	100% {
 		right: 0;
 	}
+}
+
+/*--------------- TIMELINE -----------*/
+
+.timelineContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	background-color: #101010;
+	padding: 60px 0;
+	color: white;
+}
+
+.timelineTitle {
+	text-align: center;
+	background-color: #101010;
+	color: white;
+	padding: 30px;
+	border-bottom: solid 2px white;
+}
+
+.timeline {
+	width: 80%;
+	height: auto;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.timeline ul {
+	list-style: none;
+}
+
+.timeline ul li {
+	padding: 20px;
+	background-color: #1e1f22;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.timeline ul li:last-child {
+	margin-bottom: 0;
+}
+
+.timelineContent h1 {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.timelineContent p {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+.timelineContent .date {
+	font-size: 13px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
 }

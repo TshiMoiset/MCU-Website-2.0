@@ -1,4 +1,8 @@
 @media screen and (max-width: 769px) {
+	header {
+		padding: 0;
+	}
+
 	.navButton span {
 		display: flex;
 		width: 20px;
@@ -195,5 +199,68 @@
 		100% {
 			right: 0;
 		}
+	}
+}
+
+/*------------------- TIMELINE ---------------------*/
+
+@media only screen and (min-width: 769px) {
+	.timeline::before {
+		content: "";
+		position: absolute;
+		height: 100%;
+		width: 2px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: grey;
+	}
+
+	.timeline ul li {
+		width: 50%;
+		margin-bottom: 50px;
+		position: relative;
+	}
+
+	.timeline ul li:nth-child(odd) {
+		float: left;
+		clear: right;
+		transform: translateX(-30px);
+		border-radius: 10px 0 10px 10px;
+	}
+
+	.timeline ul li:nth-child(even) {
+		float: right;
+		clear: left;
+		transform: translateX(30px);
+		border-radius: 0 10px 10px 10px;
+	}
+
+	.timeline ul li::after {
+		content: "";
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background-color: grey;
+		border-radius: 50%;
+		top: 0;
+	}
+
+	.timeline ul li:nth-child(odd)::after {
+		transform: translate(50%, -50%);
+		right: -30px;
+	}
+
+	.timeline ul li:nth-child(even)::after {
+		transform: translate(-50%, -50%);
+		left: -30px;
+	}
+
+	.timeline ul li:hover::after {
+		background-color: aqua;
+	}
+
+	.timelineContent .date {
+		position: absolute;
+		top: -30px;
 	}
 }
