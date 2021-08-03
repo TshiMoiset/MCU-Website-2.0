@@ -83,4 +83,60 @@
 	.screenLogo-NavButton {
 		width: 93%;
 	}
+
+	/*----------------- carousel images -------------*/
+
+	.slideshow-container {
+		display: grid;
+		grid-template-columns: repeat(10, minmax(200px, 1fr));
+		grid-gap: 0rem;
+		overflow-x: hidden;
+	}
+
+	.slide img {
+		width: 11rem;
+		height: auto;
+		min-width: 3rem;
+		border-radius: 2%;
+	}
+
+	.fade {
+		position: relative;
+		animation: slideLeft infinite;
+		animation-duration: 25s;
+		animation-delay: 2s;
+	}
+
+	@keyframes slideLeft {
+		10% {
+			right: 0;
+		}
+		20% {
+			right: 400px;
+		}
+		30% {
+			right: 800px;
+		}
+		40% {
+			right: 1200px;
+		}
+		50% {
+			right: 1600px;
+		}
+		60% {
+			right: 1600px;
+		}
+		70% {
+			right: 1200px;
+		}
+		80% {
+			right: 800px;
+		}
+		90% {
+			right: 400px;
+		}
+		100% {
+			right: 0;
+		}
+	}
 }

@@ -38,6 +38,8 @@ setInterval(write, 1000);
     
 */
 
+
+/*
 const swiper = new Swiper ('.swiper-container', {
     navigation: {
         nextEl: '.swiper-button-next',
@@ -48,10 +50,11 @@ const swiper = new Swiper ('.swiper-container', {
     {
         delay:2000,
     },
+
     loop: true, 
 
     slidePerView:1, 
-    spaceBetween: 10, 
+    spaceBetween: 0, 
     centeredSlides: true, 
     roundLengths: true,
     loop: true,
@@ -68,7 +71,47 @@ const swiper = new Swiper ('.swiper-container', {
         640: {
             slidePerView: 3, 
             spaceBetween: 0
-
         }
     }
-});
+});*/
+
+/*function isInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight ?? document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth ?? document.documentElement.clientWidth)
+        );
+    }*/
+
+/*let mySwiper = new Swiper ('.slideshow-container', { 
+    
+    speed:1000,
+    direction: 'horizontal',
+    navigation: 
+    {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: 
+    {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+    },
+    zoom: true,
+    keyboard: 
+    {
+        enabled: true,
+        onlyInViewport: false,
+    },
+    mousewheel: 
+    {
+        invert: true,
+    },
+autoplay: 
+{
+  delay: 2000,
+},
+loop: true,
+}); */
