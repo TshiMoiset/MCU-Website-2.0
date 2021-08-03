@@ -56,44 +56,72 @@
 	.slideshow-container {
 		display: grid;
 		grid-template-columns: repeat(10, minmax(200px, 1fr));
-		grid-gap: 2rem;
+		grid-gap: 0rem;
 		overflow-x: hidden;
 	}
 
 	.slide img {
-		width: 14rem;
+		width: 12rem;
 		height: auto;
 		object-fit: cover;
-		min-width: 14rem;
+		min-width: 12rem;
 	}
 
 	.fade {
 		position: relative;
 		animation: slideLeft infinite;
-		animation-duration: 25s;
+		animation-duration: 60s;
 		animation-delay: 0s;
 	}
 
 	@keyframes slideLeft {
-		10% {
+		6% {
+			right: 0;
 		}
-		20% {
+		12% {
+			right: 200px;
+		}
+		18% {
+			right: 400px;
+		}
+		24% {
+			right: 600px;
 		}
 		30% {
+			right: 800px;
 		}
-		40% {
+		36% {
+			right: 1000px;
 		}
-		50% {
+		42% {
+			right: 1200px;
+		}
+		48% {
+			right: 1280px;
+		}
+		54% {
+			right: 1280px;
 		}
 		60% {
+			right: 1200px;
 		}
-		70% {
+		66% {
+			right: 1000px;
 		}
-		80% {
+		72% {
+			right: 800px;
+		}
+		78% {
+			right: 600px;
+		}
+		84% {
+			right: 400px;
 		}
 		90% {
+			right: 200px;
 		}
 		100% {
+			right: 0px;
 		}
 	}
 }
