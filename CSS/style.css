@@ -7,13 +7,14 @@ body {
 	margin: 0;
 }
 
-img {
-	/*user-drag: none;*/
-	-webkit-user-drag: none;
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
+hr {
+	margin: 10px;
+	height: 2px;
+	border-width: 0;
+	border-style: solid;
+	background-color: white;
+	color: white;
+	text-align: center;
 }
 
 ::-webkit-scrollbar {

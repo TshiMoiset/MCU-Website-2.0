@@ -1,8 +1,4 @@
 @media screen and (max-width: 769px) {
-	header {
-		padding: 0px 0px !important;
-	}
-
 	.navButton span {
 		display: flex;
 		width: 20px;

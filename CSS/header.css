@@ -2,16 +2,6 @@ body.active {
 	overflow: hidden;
 }
 
-hr {
-	margin: 10px;
-	height: 2px;
-	border-width: 0;
-	border-style: solid;
-	background-color: white;
-	color: white;
-	text-align: center;
-}
-
 header {
 	position: fixed;
 	transition: 400ms;
@@ -33,15 +23,10 @@ header {
 
 .screenLogo-NavButton {
 	display: none;
-	position: fixed;
-	font-family: "Comics" !important;
-}
-
-.screenLogo-NavButton {
-	display: none;
 	justify-content: space-between;
+	background-color: #0b0930;
+	font-family: "Comics" !important;
 	transition: 300ms;
-	width: 100%;
 }
 
 .screenLogo-NavButton ul {
@@ -52,10 +37,9 @@ header {
 	display: none;
 	text-align: center;
 	font-size: 1.5rem;
-	/*font-family: "Inertia";*/
 	color: white;
 	text-decoration: none;
-	margin: 1.2rem;
+	margin: 1rem;
 }
 
 .screenLogo li {
@@ -65,7 +49,7 @@ header {
 .navButton {
 	transition: 300ms;
 	cursor: pointer;
-	margin-right: 1.2rem;
+	margin-right: 1rem;
 }
 
 .navButton span {
@@ -77,7 +61,6 @@ header {
 }
 
 .navigationLinks a {
-	/*font-family: "Beon";*/
 	text-decoration: none;
 	font-size: 1.25rem;
 	transition: 200ms;
