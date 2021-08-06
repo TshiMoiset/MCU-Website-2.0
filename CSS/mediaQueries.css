@@ -212,7 +212,7 @@
 		width: 2px;
 		left: 50%;
 		transform: translateX(-50%);
-		background-color: grey;
+		background-color: white;
 	}
 
 	.timeline ul li {
@@ -240,9 +240,10 @@
 		position: absolute;
 		height: 20px;
 		width: 20px;
-		background-color: grey;
+		background-color: white;
 		border-radius: 50%;
 		top: 0;
+		transition: 500ms;
 	}
 
 	.timeline ul li:nth-child(odd)::after {
@@ -255,12 +256,17 @@
 		left: -30px;
 	}
 
-	.timeline ul li:hover::after {
-		background-color: aqua;
-	}
-
 	.timelineContent .date {
 		position: absolute;
 		top: -30px;
+	}
+
+	.timelineContent img {
+		width: 16rem;
+		height: auto;
+	}
+
+	.timeline ul li:hover::after {
+		background-color: red;
 	}
 }

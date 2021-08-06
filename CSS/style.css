@@ -2,6 +2,15 @@ html {
 	scroll-behavior: smooth;
 }
 
+img {
+	/*user-drag: none;*/
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
 hr {
 	margin: 10px;
 	height: 2px;
