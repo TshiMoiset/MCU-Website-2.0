@@ -205,7 +205,7 @@
 /*------------------- TIMELINE ---------------------*/
 
 @media only screen and (min-width: 769px) {
-	.timeline::before {
+	/*.timeline::before {
 		content: "";
 		position: absolute;
 		height: 100%;
@@ -268,5 +268,5 @@
 
 	.timeline ul li:hover::after {
 		background-color: red;
-	}
+	}*/
 }
