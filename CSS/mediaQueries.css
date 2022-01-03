@@ -204,35 +204,34 @@
 
 /*------------------- TIMELINE ---------------------*/
 
-@media only screen and (min-width: 769px) {
-	/*.timeline::before {
+@media only screen and (min-width: 768px) {
+	.timeline::before {
 		content: "";
 		position: absolute;
-		height: 100%;
-		width: 2px;
-		left: 50%;
-		transform: translateX(-50%);
+		height: 2px;
+		width: 100%;
+		top: 50%;
 		background-color: white;
 	}
 
+	.timelineContainer ul {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
 	.timeline ul li {
-		width: 50%;
-		margin-bottom: 50px;
+		width: 30%;
 		position: relative;
 	}
 
 	.timeline ul li:nth-child(odd) {
-		float: left;
-		clear: right;
-		transform: translateX(-30px);
-		border-radius: 15px 0 15px 15px;
+		transform: translateY(-140px);
+		border-radius: 15px 15px 15px 0px;
 	}
 
 	.timeline ul li:nth-child(even) {
-		float: right;
-		clear: left;
-		transform: translateX(30px);
-		border-radius: 0 15px 15px 15px;
+		transform: translateY(170px);
+		border-radius: 0px 15px 15px 15px;
 	}
 
 	.timeline ul li::after {
@@ -247,26 +246,21 @@
 	}
 
 	.timeline ul li:nth-child(odd)::after {
-		transform: translate(50%, -50%);
-		right: -30px;
+		left: -10px;
+		top: 110%;
 	}
 
 	.timeline ul li:nth-child(even)::after {
-		transform: translate(-50%, -50%);
-		left: -30px;
+		left: -10px;
+		top: -23%;
 	}
 
 	.timelineContent .date {
 		position: absolute;
-		top: -30px;
-	}
-
-	.timelineContent img {
-		width: 16rem;
-		height: auto;
+		top: -25px;
 	}
 
 	.timeline ul li:hover::after {
 		background-color: red;
-	}*/
+	}
 }

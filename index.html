@@ -1,136 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Everything to know about the Cinematic Universe of Marvel..">
-    <title>Marvel Cinematic Universe</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/mediaQueries.css">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Everything to know about the Cinematic Universe of Marvel.."
+		/>
+		<title>Marvel Cinematic Universe</title>
+		<link rel="stylesheet" href="CSS/style.css" />
+		<link rel="stylesheet" href="CSS/header.css" />
+		<link rel="stylesheet" href="CSS/main.css" />
+		<link rel="stylesheet" href="CSS/footer.css" />
+		<link rel="stylesheet" href="CSS/mediaQueries.css" />
 
-    <script defer src="JS/navBar.js"></script>
-	<script defer src="JS/scroll.js"></script>
-	<script defer src="JS/timeline.js"></script>
-	
+		<script defer src="JS/navBar.js"></script>
+		<script defer src="JS/scroll.js"></script>
+		<script defer src="JS/timeline.js"></script>
 
-	<link rel="shortcut icon" href="Logo/STREND.LOGO.jpg" type="image/x-icon">
-
-
-</head>
-<body id="top">
-
-	<header id="navBar">
-		
-		<div class="screenLogo-NavButton" id="screenLogo-NavButton">
-			<div class="screenLogo"><ul><li><a href="#top">MCU</a></li></ul></div>
-			<div class="navButton" id="navButton" onclick="openNavbar()">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-		</div>
-
-		<div class="navigation" id="navigation">
-			<nav class="navigationLinks" id="navigationLinks">
-				<ul>
-					<li><a href="#" class="hoverLine">Movies</a></li>
-					<li><a href="#" class="hoverLine">TV-Series</a></li>
-					<div class="logo"><li><a href="#top">mcu</a></li></div>
-					<li><a href="#" class="hoverLine">Characters</a></li>
-					<li><a href="#" class="hoverLine">YouTube</a></li>
-				</ul>
-			</nav>
-
-			<div class="hamburgerNav" id="hamburgerNavbarLinks">
-				<div class="closeButton" id="closeButton" onclick="closeNavbar()">&#10006;</div>
-
-				<div class="hamburgerNavContent">
+		<link rel="shortcut icon" href="Logo/STREND.LOGO.jpg" type="image/x-icon" />
+	</head>
+	<body id="top">
+		<header id="navBar">
+			<div class="screenLogo-NavButton" id="screenLogo-NavButton">
+				<div class="screenLogo">
 					<ul>
-						<li><a href="#">Movies</a></li>
-						<hr>
-						<li><a href="#">TV-Series</a></li>
-						<hr>
-						<li><a href="#">Characters</a></li>
-						<hr>
-						<li><a href="#">YouTube</a></li>
-						<hr>
+						<li><a href="#top">MCU</a></li>
 					</ul>
 				</div>
-			</div>
-		</div>
-
-	</header>
-
-	<main>
-		<div class="heroImg">
-			<div class="heroImgText">
-				<h1>Welcome to the Cinematic Universe Of Marvel (MCU)</h1>
-				<p>Explore the biggest live action superhero franchise now!</p>
-			</div>
-		</div>
-
-		<div class="introToTheMcu">
-			
-			<div class="slideshow-container">
-
-				<div class="slide fade">
-					<img src="MoviePosters/IronManposter.jpg" alt="Iron Man">
-					<div class="text">2008</div>
+				<div class="navButton" id="navButton" onclick="openNavbar()">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/TheIncredibleHulkPoster.jpg" alt="The Incredible Hulk">
-					<div class="text">2008</div>
-				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/IronMan2poster.jpg" alt="Iron Man 2">
-					<div class="text">2010</div>
-				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/Thorposter.jpg" alt="Thor">
-					<div class="text">2011</div>
-				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/CaptainAmericaTheFirstAvengerposter.jpg" alt="Captain America The First Avenger">
-					<div class="text">2011</div>
-				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/TheAvengersposter.jpg" alt="The Avengers">
-					<div class="text">2012</div>
-				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/IronMan3poster.jpg" alt="Iron Man 3">
-					<div class="text">2013</div>
-				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/ThorTheDarkWorldposter.jpg" alt="Thor The Dark World">
-					<div class="text">2013</div>
-				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/CaptainAmericaTheWinterSoldierposter.jpg" alt="Captain America The Winter Soldier">
-					<div class="text">2014</div>
-				</div>
-
-				<div class="slide fade">
-					<img src="MoviePosters/GuardiansofTheGalaxyposter.jpg" alt="Guardians of The Galaxy">
-					<div class="text">2014</div>
-				</div>
-
 			</div>
 
+			<div class="navigation" id="navigation">
+				<nav class="navigationLinks" id="navigationLinks">
+					<ul>
+						<li><a href="#" class="hoverLine">Movies</a></li>
+						<li><a href="#" class="hoverLine">TV-Series</a></li>
+						<div class="logo">
+							<li><a href="#top">mcu</a></li>
+						</div>
+						<li><a href="#" class="hoverLine">Characters</a></li>
+						<li><a href="#" class="hoverLine">YouTube</a></li>
+					</ul>
+				</nav>
 
-			<!--<div class="mcuTimeline">
+				<div class="hamburgerNav" id="hamburgerNavbarLinks">
+					<div class="closeButton" id="closeButton" onclick="closeNavbar()">&#10006;</div>
+
+					<div class="hamburgerNavContent">
+						<ul>
+							<li><a href="#">Movies</a></li>
+							<hr />
+							<li><a href="#">TV-Series</a></li>
+							<hr />
+							<li><a href="#">Characters</a></li>
+							<hr />
+							<li><a href="#">YouTube</a></li>
+							<hr />
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="heroImg">
+				<div class="heroImgText">
+					<h1>Welcome to the Cinematic Universe Of Marvel (MCU)</h1>
+					<p>Explore the biggest live action superhero franchise now!</p>
+				</div>
+			</div>
+
+			<div class="introToTheMcu">
+				<div class="slideshow-container">
+					<div class="slide fade">
+						<img src="MoviePosters/IronManposter.jpg" alt="Iron Man" />
+						<div class="text">2008</div>
+					</div>
+
+					<div class="slide fade">
+						<img src="MoviePosters/TheIncredibleHulkPoster.jpg" alt="The Incredible Hulk" />
+						<div class="text">2008</div>
+					</div>
+
+					<div class="slide fade">
+						<img src="MoviePosters/IronMan2poster.jpg" alt="Iron Man 2" />
+						<div class="text">2010</div>
+					</div>
+
+					<div class="slide fade">
+						<img src="MoviePosters/Thorposter.jpg" alt="Thor" />
+						<div class="text">2011</div>
+					</div>
+
+					<div class="slide fade">
+						<img
+							src="MoviePosters/CaptainAmericaTheFirstAvengerposter.jpg"
+							alt="Captain America The First Avenger"
+						/>
+						<div class="text">2011</div>
+					</div>
+
+					<div class="slide fade">
+						<img src="MoviePosters/TheAvengersposter.jpg" alt="The Avengers" />
+						<div class="text">2012</div>
+					</div>
+
+					<div class="slide fade">
+						<img src="MoviePosters/IronMan3poster.jpg" alt="Iron Man 3" />
+						<div class="text">2013</div>
+					</div>
+
+					<div class="slide fade">
+						<img src="MoviePosters/ThorTheDarkWorldposter.jpg" alt="Thor The Dark World" />
+						<div class="text">2013</div>
+					</div>
+
+					<div class="slide fade">
+						<img
+							src="MoviePosters/CaptainAmericaTheWinterSoldierposter.jpg"
+							alt="Captain America The Winter Soldier"
+						/>
+						<div class="text">2014</div>
+					</div>
+
+					<div class="slide fade">
+						<img
+							src="MoviePosters/GuardiansofTheGalaxyposter.jpg"
+							alt="Guardians of The Galaxy"
+						/>
+						<div class="text">2014</div>
+					</div>
+				</div>
+
+				<!--<div class="mcuTimeline">
 				<h1 class="timelineTitle">The MCU Timeline</h1>
 				<div class="timelineContainer">
 					<div class="timeline">
@@ -219,70 +227,67 @@
 
 			</div>-->
 
-			<div class="mcuTimeline">
-				<h1 class="timelineTitle">The MCU Timeline</h1>
-				<div class="timelineContainer">
-					<div class="timeline">
-						<ul>
-							<li>
-								<div class="timelineContent">
-									<h2 class="date">1942 - 1945</h2>
-									<h1>Captain America: The First Avenger</h1>
-									<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro delectus obcaecati officiis iusto dolorum ipsam error ab amet non.</p>
-								</div>
-							</li>
-							<li>
-								<div class="timelineContent">
-									<h2 class="date">1995</h2>
-									<h1>Guardians of the Galaxy Vol. 2</h1>
-									<!--<h1>Captain Marvel</h1>-->
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum atque unde perspiciatis blanditiis ipsam asperiores nulla architecto iure animi.</p>
-								</div>
-							</li>
-							<li>
-								<div class="timelineContent">
-									<h2 class="date">2009</h2>
-									<!--<h1>Iron Man</h1>-->
-									<h1>The Falcon & the Winter Soldier</h1>
-									<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro delectus obcaecati officiis iusto dolorum ipsam error ab amet non.</p>
-								</div>
-							</li>
-						
-						</ul>
+				<div class="mcuTimeline">
+					<h1 class="timelineTitle">The MCU Timeline</h1>
+					<div class="timelineContainer">
+						<div class="timeline">
+							<ul>
+								<li>
+									<div class="timelineContent">
+										<h2 class="date">1942 - 1945</h2>
+										<h1>Captain America: The First Avenger</h1>
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro delectus
+											obcaecati officiis iusto dolorum ipsam error ab amet non.
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="timelineContent">
+										<h2 class="date">1995</h2>
+										<!--<h1>Guardians of the Galaxy Vol. 2</h1>-->
+										<h1>Captain Marvel</h1>
+										<p>
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum atque unde
+											perspiciatis blanditiis ipsam asperiores nulla architecto iure animi.
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="timelineContent">
+										<h2 class="date">2009</h2>
+										<h1>Iron Man</h1>
+										<!--<h1>The Falcon & the Winter Soldier</h1>-->
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro delectus
+											obcaecati officiis iusto dolorum ipsam error ab amet non.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
 					</div>
-
 				</div>
 			</div>
+		</main>
 
-			
+		<footer>
+			<div class="footerContent">
+				<div class="footerLeft">
+					<span class="footerLogo"><a href="index.html">Mcu</a></span>
+					<p>&copy; 2021 Movie Arts</p>
+				</div>
 
-
-
-		</div>
-	</main>
-
-	<footer>
-        <div class="footerContent">
-
-            <div class="footerLeft">
-                <span class="footerLogo"><a href="index.html">Mcu</a></span>
-                <p>&copy; 2021 Movie Arts</p> 
-            </div>
-			
-            <div class="footerRight">
-				<ul>
-					<li><a class="hoverLine" href="#">Terms & Conditions</a></li>
-					<li><a class="hoverLine" href="#">Cookies Policy</a></li>
-					<li><a class="hoverLine" href="#">Privacy Policy</a></li>
-					<li><a class="hoverLine" href="#">Contact</a></li>
-					<li><a class="hoverLine" href="#">About</a></li>
-				</ul>
-            </div>
-
-        </div>
-    </footer>
-
-</body>
+				<div class="footerRight">
+					<ul>
+						<li><a class="hoverLine" href="#">Terms & Conditions</a></li>
+						<li><a class="hoverLine" href="#">Cookies Policy</a></li>
+						<li><a class="hoverLine" href="#">Privacy Policy</a></li>
+						<li><a class="hoverLine" href="#">Contact</a></li>
+						<li><a class="hoverLine" href="#">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
-
-
