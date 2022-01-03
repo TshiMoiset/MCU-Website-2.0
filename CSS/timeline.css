@@ -1,0 +1,89 @@
+/*------------------- TIMELINE ---------------------*/
+
+/*@media screen and (min-width: 1024px) and (max-width: 1024px) {
+	.timeline ul li:nth-child(odd) {
+		transform: translateY(-100px);
+	}
+
+	.timeline ul li:nth-child(even) {
+		transform: translateY(200px);
+	}
+
+	.timeline ul li:nth-child(odd)::after {
+		top: 110%;
+	}
+
+	.timeline ul li:nth-child(even)::after {
+		top: -23%;
+	}
+
+	.timelineContent .date {
+		top: -20px;
+	}
+}*/
+
+@media only screen and (min-width: 769px) {
+	.timeline::before {
+		content: "";
+		position: absolute;
+		height: 2px;
+		width: 100%;
+		top: 50%;
+		background-color: white;
+	}
+
+	.timelineContainer ul {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.timeline {
+		width: 100%;
+		margin: 20px;
+	}
+
+	.timeline ul li {
+		width: 30%;
+		position: relative;
+	}
+
+	.timeline ul li:nth-child(odd) {
+		transform: translateY(-140px);
+		border-radius: 15px 15px 15px 0px;
+	}
+
+	.timeline ul li:nth-child(even) {
+		transform: translateY(170px);
+		border-radius: 0px 15px 15px 15px;
+	}
+
+	.timeline ul li::after {
+		content: "";
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background-color: white;
+		border-radius: 50%;
+		top: 0;
+		transition: 500ms;
+	}
+
+	.timeline ul li:nth-child(odd)::after {
+		left: -10px;
+		top: 110%;
+	}
+
+	.timeline ul li:nth-child(even)::after {
+		left: -10px;
+		top: -23%;
+	}
+
+	.timelineContent .date {
+		position: absolute;
+		top: -25px;
+	}
+
+	.timeline ul li:hover::after {
+		background-color: red;
+	}
+}
