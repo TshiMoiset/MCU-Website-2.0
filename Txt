@@ -1,0 +1,33 @@
+<!--  old time line code-->
+
+<!--<div class="mcuTimeline">
+				<h1 class="timelineTitle">The MCU Timeline</h1>
+				<div class="timelineContainer">
+					<div class="timeline">
+						<ul>
+							<li>
+								<div class="timelineContent">
+									<h2 class="date">1942 - 1945</h2>
+									<h1>Captain America: The First Avenger</h1>
+									<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro delectus obcaecati officiis iusto dolorum ipsam error ab amet non.</p>
+								</div>
+							</li>
+							<li>
+								<div class="timelineContent">
+									<h2 class="date">1995</h2>
+									<h1>Captain Marvel</h1>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum atque unde perspiciatis blanditiis ipsam asperiores nulla architecto iure animi.</p>
+								</div>
+							</li>
+							<li>
+								<div class="timelineContent">
+									<h2 class="date">2009</h2>
+									<h1>Iron Man</h1>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum atque unde perspiciatis blanditiis ipsam asperiores nulla architecto iure animi.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>-->
