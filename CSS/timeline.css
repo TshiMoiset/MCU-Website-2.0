@@ -86,4 +86,49 @@
 	.timeline ul li:hover::after {
 		background-color: red;
 	}
+
+	.prev,
+	.next {
+		cursor: pointer;
+		position: absolute;
+		width: auto;
+		padding: 20px;
+		color: white;
+		font-size: 25px;
+		user-select: none;
+		-webkit-user-select: none;
+		transition: 300ms;
+		top: 35.5%;
+	}
+
+	.prev {
+		left: -55px;
+	}
+
+	.next {
+		right: -55px;
+	}
+
+	.prev:hover,
+	.next:hover {
+		color: red;
+	}
 }
+
+/*
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	width: auto;
+	padding: 16px;
+	color: white;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+	transition: 300ms;
+	top: 50%;
+}
+
+*/

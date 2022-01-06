@@ -273,16 +273,11 @@
 	width: 80%;
 	position: relative;
 	margin: 0 auto;
-	/*min-height: 100vh;*/
 }
 
 .timeline ul {
 	list-style: none;
 }
-
-/*.timeline li {
-	padding: 20px;
-}*/
 
 .timeline ul li {
 	padding: 20px;
@@ -290,10 +285,6 @@
 	border-radius: 10px;
 	margin-bottom: 20px;
 }
-
-/*.timeline ul li:last-child {
-	margin-bottom: 0;
-}*/
 
 .timelineContent p {
 	line-height: 30px;
