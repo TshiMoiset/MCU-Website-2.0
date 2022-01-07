@@ -78,6 +78,11 @@
 		animation-delay: 0s;
 	}
 
+	/*----------------------- Welcome to Mcu ----------------*/
+	.introToTheMcu {
+		padding: 0.8rem;
+	}
+
 	@keyframes slideLeft {
 		6% {
 			right: 0;
